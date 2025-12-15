@@ -1043,7 +1043,7 @@ while :; do
 	echo
 	if [[ $local_install ]]; then
 		echo -e "$yellow 温馨提示.. 本地安装已启用 ..$none"
-		echo
+		echo					
 	fi
 	read -p "$(echo -e "请选择 [${magenta}1-2$none]:")" choose
 	case $choose in
